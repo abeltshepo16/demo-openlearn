@@ -1,0 +1,85 @@
+header {
+	padding: 15px;
+	background-color: #f2f2f2;
+	box-shadow: 10px 5px 10px 5px Lightgrey;
+	height: 150px;
+}
+img.coffee {
+	height: 39px;
+	margin-left: 150px;
+	margin-top: -10px;
+}
+#top-nav input[type=button] {
+	width: 30px;
+	height: 35px;
+	margin-left: 200px;
+	margin-top: 20px;
+	border-radius: 7px;
+	background-color: #b20000;
+	border-color: #b20000;
+}
+#top-nav input[type=text] {
+	width: 300px;
+	height: 35px;
+	margin-left: -5px;
+	margin-top: -20px;
+	border-radius: 7px;
+	background-color: #b20000;
+	border-color: #b20000;
+}
+#top-nav img {
+	margin-top: -20px;
+}
+#top-nav {
+	margin-left: -255px;
+}
+.avatar {
+	float: right;
+	margin-top: -95px;
+}
+#name-align {
+	margin-right: -120px;
+}
+img.avatar {
+	margin-right: -225px;
+	margin-top: -55px;
+	border-radius: 33px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block
+	border: 1px solid grey;
+	box-shadow: 5px 5px 5px 5px Lightgrey;
+	margin-top: -25px;
+	width: 455px;
+}
+ul {
+	list-style-type: none;
+	margin-top: -15px;
+}
+hr.menuitem {
+	position: relative;
+	width: 410px;
+	margin-right: 835px;
+}
+h2 {
+	padding: 25px;
+	margin-top: 25px;
+}
+.frames {
+float: right;
+margin-top: -700px;
+padding-right: 100px;
+}
+@media screen and (max-width: 992px) {
+	body {
+		background-color: white;
+	}
+	header {
+		padding: 15px;
+		background-color: #f2f2f2;
+		box-shadow: 10px 5px 10px 5px Lightgrey;
+		height: 150px;
+	}
+
+}

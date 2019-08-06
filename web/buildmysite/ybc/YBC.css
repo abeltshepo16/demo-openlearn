@@ -1,0 +1,35 @@
+body {
+    background-image: url('Webpages2.png');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 90% 50%;
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: none;
+    width: 20%;
+    height: 50%;
+    padding: 5px;
+    overflow: auto;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: scroll;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }

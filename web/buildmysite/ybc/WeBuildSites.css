@@ -1,0 +1,92 @@
+body {
+    background: #f6f6f6;
+    background-image: url('fabian-grohs-538856-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+}
+
+
+.bgimg{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: center;
+    color: black;
+    font-family: "italics", Courier, monospace;
+    font-size: 25px;
+    
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+
+
+.bottomleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+
+.middle {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: top;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.webuildCountdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: top;
+    background: transparent;
+    opacity: 5.5;
+    border: 1px solid #999;
+    padding: 370px;
+    box-shadow: 0 0 90px 90px black;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.info{
+    font-size: 80px;
+    color: white;
+    
+    
+}
+
+.days {
+    color: white;
+    
+}
+
+#demo {
+    font-size: 180px;
+    color: white;
+    position: center;
+    bottom: -120px;
+    font-family: 'italics';
+    background-color: rgba(-160, -160, -160, 9.9);
+    box-shadow: 0 0 50px 30px #fff;
+}
+
+
+
